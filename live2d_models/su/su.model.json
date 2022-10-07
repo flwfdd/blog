@@ -1,0 +1,8 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "su",
+	"model": "./model.moc",
+	"textures": [
+		"https://su-ours.oss-cn-hangzhou.aliyuncs.com/src/su/textures/texture_00.png"
+	]
+}
