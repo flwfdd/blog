@@ -28,17 +28,24 @@
         "title": "前去拜访"
     },
     {
-        "avatar": "https://matheart.github.io/media/profile.jpg",
+        "avatar": "https://avatars.githubusercontent.com/u/47732475",
         "name": "數心",
         "introduction": "萬物皆數.",
         "url": "https://matheart.github.io/",
         "title": "前去拜访"
     },
     {
-        "avatar": "https://avatars2.githubusercontent.com/u/24982550",
+        "avatar": "https://avatars.githubusercontent.com/u/24982550",
         "name": "烧风",
         "introduction": "A human.",
         "url": "https://hk-shao.github.io/",
+        "title": "前去拜访"
+    },
+	{
+        "avatar": "https://avatars.githubusercontent.com/u/55699713",
+        "name": "widcardw",
+        "introduction": "不是多面手",
+        "url": "https://widcard.win/",
         "title": "前去拜访"
     }
 ]
