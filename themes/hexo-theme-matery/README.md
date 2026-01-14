@@ -461,7 +461,7 @@ music:
   id: 503838841     # require song id / playlist id / album id / search keyword
   fixed: false      # enable fixed mode
   autoplay: false   # audio atuoplay
-  theme: '#42b983'
+  theme: '#00ABD6'
   loop: 'all'       # player loop play, values: 'all', 'one', 'none'
   order: 'random'   # player play order, values: 'list', 'random'
   preload: 'auto'   # values: 'none', 'metadata', 'auto'
@@ -483,23 +483,23 @@ music:
 
 Everything in the Front-matter option is **not required**. But I still recommend at least filling in the values of `title` and `date`.
 
-| Options   | Defaults              | Description                                             |
-| ---------- | --------------------------- | ------------------------------------------------------------ |
-| title      | Markdown's file title | Post title, it is highly recommended to fill in this option |
-| date       | Date and time when the file created | Publish time, it is highly recommended to fill in this option, and it is best to ensure that it is globally unique |
-| author     | `author` in root `_config.yml` | Post author                                    |
-| img        | a value in `featureImages`  | Post feature image，For example: `http://xxx.com/xxx.jpg` |
-| top        | `true`                      | Recommended post (whether the post is topped), if the `top` value is `true`, it will be recommended as a homepage post. |
-| cover      | `false`                     | The `v1.0.2` version is added to indicate whether the post needs to be added to the homepage carousel cover. |
-| coverImg   | null                        | The new version of `v1.0.2` indicates that the post needs to display the image path on the cover of the homepage. If not, the default image of the post is used by default. |
-| password   | null                        | The post read the password. If you want to set the reading verification password for the article, you can set the value of `password`, which must be encrypted with `SHA256` to prevent others from seeing it. The premise is that the `verifyPassword` option is activated in the theme's `config.yml` |
-| toc        | `true`                      | Whether TOC is turned on or not, you can turn off the TOC function for an article. The premise is that the `toc` option is activated in the theme's `config.yml` |
-| mathjax    | `false`                     | Whether to enable math formula support, whether this article starts `mathjax`, and you need to open it in the theme `_config.yml` file. |
-| summary    | null                        | Post summary, custom post summary content, if the attribute has a value, the post card summary will display the text, otherwise the program will automatically intercept part of the article as a summary |
-| categories | null                        | Article classification, the classification of this topic represents a macroscopically large classification, only one article is recommended for one classification. |
-| tags       | null                        | Post label, a post can have multiple labels |
-| keywords   | Post Title                  | Post key Words With SEO                               |
-| reprintPolicy       | cc_by              | Post reprint policy, value could be one of cc_by, cc_by_nd, cc_by_sa, cc_by_nc, cc_by_nc_nd, cc_by_nc_sa, cc0, noreprint and pay |
+| Options       | Defaults                            | Description                                                                                                                                                                                                                                                                                             |
+| ------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| title         | Markdown's file title               | Post title, it is highly recommended to fill in this option                                                                                                                                                                                                                                             |
+| date          | Date and time when the file created | Publish time, it is highly recommended to fill in this option, and it is best to ensure that it is globally unique                                                                                                                                                                                      |
+| author        | `author` in root `_config.yml`      | Post author                                                                                                                                                                                                                                                                                             |
+| img           | a value in `featureImages`          | Post feature image，For example: `http://xxx.com/xxx.jpg`                                                                                                                                                                                                                                               |
+| top           | `true`                              | Recommended post (whether the post is topped), if the `top` value is `true`, it will be recommended as a homepage post.                                                                                                                                                                                 |
+| cover         | `false`                             | The `v1.0.2` version is added to indicate whether the post needs to be added to the homepage carousel cover.                                                                                                                                                                                            |
+| coverImg      | null                                | The new version of `v1.0.2` indicates that the post needs to display the image path on the cover of the homepage. If not, the default image of the post is used by default.                                                                                                                             |
+| password      | null                                | The post read the password. If you want to set the reading verification password for the article, you can set the value of `password`, which must be encrypted with `SHA256` to prevent others from seeing it. The premise is that the `verifyPassword` option is activated in the theme's `config.yml` |
+| toc           | `true`                              | Whether TOC is turned on or not, you can turn off the TOC function for an article. The premise is that the `toc` option is activated in the theme's `config.yml`                                                                                                                                        |
+| mathjax       | `false`                             | Whether to enable math formula support, whether this article starts `mathjax`, and you need to open it in the theme `_config.yml` file.                                                                                                                                                                 |
+| summary       | null                                | Post summary, custom post summary content, if the attribute has a value, the post card summary will display the text, otherwise the program will automatically intercept part of the article as a summary                                                                                               |
+| categories    | null                                | Article classification, the classification of this topic represents a macroscopically large classification, only one article is recommended for one classification.                                                                                                                                     |
+| tags          | null                                | Post label, a post can have multiple labels                                                                                                                                                                                                                                                             |
+| keywords      | Post Title                          | Post key Words With SEO                                                                                                                                                                                                                                                                                 |
+| reprintPolicy | cc_by                               | Post reprint policy, value could be one of cc_by, cc_by_nd, cc_by_sa, cc_by_nc, cc_by_nc_nd, cc_by_nc_sa, cc0, noreprint and pay                                                                                                                                                                        |
 
 > **Note**: 
 > 1. post's featured picture will take remainder if not writing the `img` property, and choose the featured picture of theme to let all of post's picture **have their own characteristics**.
@@ -587,7 +587,7 @@ Search `.bg-color` to modify background color in `/source/css/matery.css` in the
 ```css
 /* The overall background color, including navigation, mobile navigation, footer, tab, etc.. */
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #4cbf30 0%, #0087A8 100%);
 }
 
 @-webkit-keyframes rainbow {

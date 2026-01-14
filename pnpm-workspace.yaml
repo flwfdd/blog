@@ -1,0 +1,6 @@
+onlyBuiltDependencies:
+  - core-js
+  - fsevents
+  - hexo-helper-live2d
+  - hexo-util
+  - live2d-widget
