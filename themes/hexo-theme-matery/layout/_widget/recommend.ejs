@@ -1,4 +1,4 @@
-<% // get all top posts. var topPosts=[]; if (theme.recommend.useConfig) { topPosts=site.data.recommends; } else {
+<% /* get all top posts. */ var topPosts=[]; if (theme.recommend.useConfig) { topPosts=site.data.recommends; } else {
     site.posts.forEach(function (post) { if (post.top) { topPosts.push(post); } }); } var topPostsCount=topPosts.length;
     %>
 
