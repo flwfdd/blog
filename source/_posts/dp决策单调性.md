@@ -144,7 +144,7 @@ int main()
 
 交一波，就非常难受地得到了...`TLE`
 
-![lwKQyR.png](https://s2.ax1x.com/2020/01/04/lwKQyR.png)
+![TLE](https://gallery.0u0.fun/files/d086be13761c747ab546e0c3f1a55aa4cbdffcb8d4803e8d5db9c4896ef788bc.png)
 
 因为是暴力跳边界（类似莫队），得到只取一段的答案，这题必须还得套上一个分治，使得跳的数量尽量少。
 

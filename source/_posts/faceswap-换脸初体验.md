@@ -34,7 +34,7 @@ tags:
 
 `python faceswap.py gui`就可以了。
 
-![界面截图](https://s2.ax1x.com/2020/01/05/lBXODs.png)
+![界面截图](https://gallery.0u0.fun/files/fcdd5fee0e013e8174bd197fd9f3fe9574d5cb49d78ad9f6c04e2ae128c66459.png)
 
 至此，安装就算是完成咯。
 
@@ -77,13 +77,11 @@ tags:
 
 最后一通乱搞，开了所有模型的`LowMem`选项，勾选了那三个内存节省方案，以这样的设置跑起来了。
 
-![Training](https://s2.ax1x.com/2020/01/05/lrSa5R.png)
-
 大概每个小时可以跑`5000`次迭代。
 
-![约五千次](https://s2.ax1x.com/2020/01/06/lsRxWn.png)
+![约五千次](https://gallery.0u0.fun/files/3e5d693bf0af7ac35922b3893f96dfb506036485260040c4ca5f0cfabfd6491b.png)
 
-![约十万次](https://s2.ax1x.com/2020/01/06/lsRzzq.png)
+![约十万次](https://gallery.0u0.fun/files/277bd45a7ceb293616209284cc64c2994d9156b8289bca4773a537d55eea6b2b.png)
 
 效果也还不错了，只是因为原图数量和质量都不够高，训练时间也没有特别长，所以有点糊，吻合也不够好。但效果已经出来了。
 

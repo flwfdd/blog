@@ -29,7 +29,7 @@ tags:
 
 另外把贴图的地址改成了阿里云的`OSS`，倒是直接在`model.json`里面更改就奇迹般地可以了。
 
-![网页小苏](https://s2.ax1x.com/2020/01/08/lR9OTx.jpg)
+![网页小苏](https://gallery.0u0.fun/files/6cd6e0c7cc9de960358451a773beb014bbab6e23221c4d84633fd35c645acfff.jpg)
 
 # 博客版
 

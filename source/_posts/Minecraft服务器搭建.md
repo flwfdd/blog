@@ -1,7 +1,7 @@
 ---
 title: Minecraft服务器搭建
 date: 2019-12-10 01:08:46
-img: https://pic2.superbed.cn/item/5dee812c1f8f59f4d6b2e4ec.gif
+img: https://gallery.0u0.fun/files/29d188c2508079fbc7d81a4c16c7c06630ff45891c11da4295b6391d5a29d7ce.gif
 categories: 网
 tags:
 - 网
